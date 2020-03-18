@@ -1,8 +1,8 @@
-import MulticraftAPI
+from multicraftapi import MulticraftAPI
 
 
 # Arguments: (url, username, api_key)
-client = MulticraftAPI.MulticraftAPI("http://example.com/multicraft/api.php",  "Example_Username",  "3X4MP134P1K3Y")
+client = MulticraftAPI("http://example.com/multicraft/api.php",  "Example_Username",  "3X4MP134P1K3Y")
 
 # Arguments: (function, *args)
 response =  client("getServerStatus",  "123456")

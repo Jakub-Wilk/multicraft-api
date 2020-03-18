@@ -12,11 +12,11 @@ MulticraftAPI<span></span>.py is a Python port of the [Multicraft API Interface]
 
 From example.py:
 
-    import MulticraftAPI
+    from multicraftapi import MulticraftAPI
     
 
     # Arguments: (url, username, api_key)
-	client = MulticraftAPI.MulticraftAPI("http://example.com/multicraft/api.php",  "Example_Username",  "3X4MP134P1K3Y")
+	client = MulticraftAPI("http://example.com/multicraft/api.php",  "Example_Username",  "3X4MP134P1K3Y")
 
 	# Arguments: (function, *args)
 	response =  client("getServerStatus",  "123456")
