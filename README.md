@@ -1,8 +1,8 @@
-# MulticraftAPI<span></span>.py
+# multicraft-api
 
 ### What it is
 
-MulticraftAPI<span></span>.py is a Python port of the [Multicraft API Interface](https://www.multicraft.org/site/docs/api).
+multicraft-api is a Python port of the [Multicraft API Interface](https://www.multicraft.org/site/docs/api).
 
 ### Installation
 
