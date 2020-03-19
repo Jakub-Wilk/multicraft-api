@@ -1,3 +1,3 @@
 __author__ = "Jakub Wilk"
 
-from . import api
+from .api import MulticraftAPI

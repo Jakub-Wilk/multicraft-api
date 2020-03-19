@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="multicraft-api", # Replace with your own username
-    version="1.3.1",
+    version="1.3.2",
     author="Jakub Wilk",
     author_email="wilkjakub64@gmail.com",
     description="A Python port of the Multicraft API",
